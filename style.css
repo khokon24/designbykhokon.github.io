@@ -137,6 +137,17 @@ body{
   background:#111;
   color:white;
 }
+.contact a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.contact a:hover {
+  color: #00bfff;
+  text-shadow: 0 0 8px rgba(0,191,255,0.7);
+  }
 
 /* FOOTER */
 
