@@ -4,194 +4,65 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Khokon Ahmed | Professional Web Developer</title>
-<meta name="description" content="Professional Web Developer from Bangladesh. HTML, CSS, JavaScript Expert. Hire me on Fiverr.">
+<meta name="description" content="Khokon Ahmed is a professional web developer from Bangladesh specializing in HTML, CSS and JavaScript. Hire for modern responsive websites.">
+<meta name="keywords" content="Web Developer Bangladesh, HTML CSS Developer, JavaScript Developer, Fiverr Web Developer">
+<meta name="author" content="Khokon Ahmed">
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, sans-serif;
-    scroll-behavior:smooth;
-}
-
-body{
-    background:linear-gradient(135deg,#0f172a,#1e293b);
-    color:white;
-}
-
-nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:20px 10%;
-}
-
-.logo{
-    font-size:24px;
-    font-weight:bold;
-}
-
-.logo span{
-    color:#00c6ff;
-}
-
-nav ul{
-    list-style:none;
-    display:flex;
-    gap:25px;
-}
-
-nav ul li a{
-    text-decoration:none;
-    color:white;
-    transition:0.3s;
-}
-
-nav ul li a:hover{
-    color:#00c6ff;
-}
-
-.hero{
-    text-align:center;
-    padding:120px 20px;
-}
-
-.hero span{
-    color:#00c6ff;
-}
-
-.btn{
-    display:inline-block;
-    margin-top:25px;
-    padding:12px 30px;
-    background:#00c6ff;
-    color:#000;
-    text-decoration:none;
-    border-radius:30px;
-    font-weight:bold;
-    transition:0.3s;
-}
-
-.btn:hover{
-    background:white;
-}
-
-.section{
-    padding:80px 10%;
-    text-align:center;
-}
-
-.dark{
-    background:#0f172a;
-}
-
-.cards{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    margin-top:40px;
-    flex-wrap:wrap;
-}
-
-.card{
-    background:#1e293b;
-    padding:30px;
-    width:280px;
-    border-radius:15px;
-    border:1px solid #00c6ff;
-    transition:0.3s;
-}
-
-.card:hover{
-    transform:translateY(-10px);
-    box-shadow:0 10px 30px rgba(0,0,0,0.4);
-}
-
-.project-btn{
-    display:inline-block;
-    margin-top:15px;
-    padding:8px 20px;
-    background:#00c6ff;
-    color:#000;
-    text-decoration:none;
-    border-radius:20px;
-    transition:0.3s;
-}
-
-.project-btn:hover{
-    background:white;
-}
-
-footer{
-    text-align:center;
-    padding:20px;
-    background:#020617;
-    font-size:14px;
-}
-
-@media(max-width:768px){
-    nav{
-        flex-direction:column;
-        gap:15px;
-    }
-
-    nav ul{
-        flex-direction:column;
-        gap:10px;
-    }
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<nav>
-    <div class="logo">Khokon<span>Dev</span></div>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+<header>
+    <nav class="container">
+        <div class="logo">Khokon<span>Dev</span></div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-<section class="hero">
-    <h1>Hello, I'm <span>Khokon Ahmed</span></h1>
-    <p>Professional Web Developer | HTML | CSS | JavaScript</p>
-    <a href="https://www.fiverr.com/khokondev" target="_blank" class="btn">Hire Me on Fiverr</a>
-</section>
+    <div class="hero container">
+        <h1>Hello, I'm <span>Khokon Ahmed</span></h1>
+        <p>Professional Web Developer | HTML | CSS | JavaScript</p>
+        <a href="https://www.fiverr.com/khokondev" target="_blank" class="btn">Hire Me on Fiverr</a>
+    </div>
+</header>
 
-<section id="about" class="section">
+<section id="about" class="section container">
     <h2>About Me</h2>
     <p>
         I am a passionate web developer from Bangladesh.
-        I create modern, responsive and professional websites.
-        I focus on clean design and high performance.
+        I build modern, fast, responsive and SEO-friendly websites.
+        My goal is to help businesses grow online with clean and professional design.
     </p>
 </section>
 
 <section id="services" class="section dark">
-    <h2>My Services</h2>
-    <div class="cards">
-        <div class="card">
-            <h3>Website Design</h3>
-            <p>Modern and responsive UI design for businesses and brands.</p>
-        </div>
-        <div class="card">
-            <h3>Frontend Development</h3>
-            <p>Clean HTML, CSS, JavaScript coding with professional structure.</p>
-        </div>
-        <div class="card">
-            <h3>Bug Fixing</h3>
-            <p>Fix layout, responsiveness and performance issues quickly.</p>
+    <div class="container">
+        <h2>My Services</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Website Design</h3>
+                <p>Modern, clean and responsive UI design for business and personal brands.</p>
+            </div>
+            <div class="card">
+                <h3>Frontend Development</h3>
+                <p>Professional HTML, CSS and JavaScript coding with clean structure.</p>
+            </div>
+            <div class="card">
+                <h3>Bug Fixing</h3>
+                <p>Fix layout, responsiveness and performance issues quickly and efficiently.</p>
+            </div>
         </div>
     </div>
 </section>
 
-<section id="projects" class="section">
+<section id="projects" class="section container">
     <h2>My Projects</h2>
-    <div class="cards">
+    <div class="grid">
         <div class="card">
             <h3>Weather App</h3>
             <p>Live weather application using API integration.</p>
@@ -201,13 +72,15 @@ footer{
 </section>
 
 <section id="contact" class="section dark">
-    <h2>Contact Me</h2>
-    <p>Email: contact.khokonweb@gmail.com</p>
-    <p>WhatsApp: 01739656582</p>
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>Email: contact.khokonweb@gmail.com</p>
+        <p>WhatsApp: 01739656582</p>
+    </div>
 </section>
 
 <footer>
-    <p>© 2026 Khokon Ahmed | All Rights Reserved</p>
+    <p>© 2026 Khokon Ahmed. All Rights Reserved.</p>
 </footer>
 
 </body>
